@@ -1,0 +1,4074 @@
+<TaskerData sr="" dvi="1" tv="4.9u4m">
+	<dmetric>1080.0,1920.0</dmetric>
+	<Profile sr="prof2" ve="2">
+		<cdate>1496549078507</cdate>
+		<edate>1497159571508</edate>
+		<id>2</id>
+		<limit>true</limit>
+		<mid0>4</mid0>
+		<Event sr="con0" ve="2">
+			<cname>FreeMemory</cname>
+			<code>422</code>
+			<pri>0</pri>
+		</Event>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1496549054762</cdate>
+		<mdate>1500228958814</mdate>
+		<name>Base</name>
+		<pids>2</pids>
+		<scenes>Variable Query,Advanced,Espera...,WAMedia2SDHome</scenes>
+		<tids>12,4,3,5,7,8</tids>
+		<Img sr="icon" ve="2">
+			<nme>hl_aaa_ext_home</nme>
+		</Img>
+	</Project>
+	<Scene sr="sceneAdvanced">
+		<cdate>1499435501179</cdate>
+		<edate>1500297451391</edate>
+		<heightLand>1080</heightLand>
+		<heightPort>1176</heightPort>
+		<nme>Advanced</nme>
+		<widthLand>774</widthLand>
+		<widthPort>774</widthPort>
+		<RectElement sr="elements0">
+			<flags>6</flags>
+			<geom>0,0,774,1176,0,0,702,1080</geom>
+			<Str sr="arg0" ve="3">Rectángulo1</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FF367E05</Str>
+			<Str sr="arg3" ve="3">#FF1F4806</Str>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>27</clickTask>
+			<flags>4</flags>
+			<geom>204,977,297,173,128,907,395,173</geom>
+			<Str sr="arg0" ve="3">OkAdv</Str>
+			<Str sr="arg1" ve="3">OK</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFADEEB6</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>cust_transparent</nme>
+			</Img>
+		</ButtonElement>
+		<CheckBoxElement sr="elements2">
+			<checkchangeTask>28</checkchangeTask>
+			<flags>4</flags>
+			<geom>58,563,317,106,128,352,420,154</geom>
+			<Str sr="arg0" ve="3">DebugCheckBox</Str>
+			<Int sr="arg1" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</CheckBoxElement>
+		<CheckBoxElement sr="elements3">
+			<checkchangeTask>30</checkchangeTask>
+			<flags>4</flags>
+			<geom>58,709,319,106,128,352,420,154</geom>
+			<Str sr="arg0" ve="3">SimCheckBox</Str>
+			<Int sr="arg1" val="1"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</CheckBoxElement>
+		<TextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>155,2,414,204,54,80,544,204</geom>
+			<Str sr="arg0" ve="3">Titulo</Str>
+			<Str sr="arg1" ve="3">Mover Archivos WhatsApp a SD</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>155,563,569,97,153,426,421,154</geom>
+			<Str sr="arg0" ve="3">Debug</Str>
+			<Str sr="arg1" ve="3">Modo Debug
+- escribe un log para debug -</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="99"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements6" ve="3">
+			<flags>4</flags>
+			<geom>155,709,569,98,153,426,421,154</geom>
+			<Str sr="arg0" ve="3">Simulator</Str>
+			<Str sr="arg1" ve="3">Modo Simulador
+- simula el movimiento de archivos -</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="99"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements7" ve="3">
+			<flags>4</flags>
+			<geom>603,75,171,122,82,660,238,374</geom>
+			<Str sr="arg0" ve="3">TextoVer1</Str>
+			<Str sr="arg1" ve="3">v_%VerNo</Str>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements8" ve="3">
+			<flags>4</flags>
+			<geom>179,246,374,122,82,660,238,374</geom>
+			<Str sr="arg0" ve="3">TextAdvOpt</Str>
+			<Str sr="arg1" ve="3">Opciones avanzadas</Str>
+			<Int sr="arg2" val="13"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#33FFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">GUI</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneEspera...">
+		<cdate>1499435501179</cdate>
+		<edate>1500426072774</edate>
+		<heightLand>1080</heightLand>
+		<heightPort>1176</heightPort>
+		<nme>Espera...</nme>
+		<widthLand>774</widthLand>
+		<widthPort>774</widthPort>
+		<RectElement sr="elements0">
+			<flags>6</flags>
+			<geom>0,0,774,1176,0,0,702,1080</geom>
+			<Str sr="arg0" ve="3">Rectángulo1</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FF367E05</Str>
+			<Str sr="arg3" ve="3">#FF1F4806</Str>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>82,246,609,587,82,222,585,512</geom>
+			<Str sr="arg0" ve="3">MsgBox</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="2"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<ButtonElement sr="elements2" ve="3">
+			<clickTask>6</clickTask>
+			<flags>4</flags>
+			<geom>204,977,297,173,128,907,395,173</geom>
+			<Str sr="arg0" ve="3">AbortButton</Str>
+			<Str sr="arg1" ve="3">Abortar</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFADEEB6</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>cust_transparent</nme>
+			</Img>
+		</ButtonElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>155,2,414,204,54,80,544,204</geom>
+			<Str sr="arg0" ve="3">Titulo</Str>
+			<Str sr="arg1" ve="3">Mover Archivos WhatsApp a SD</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>82,855,609,73,153,426,421,154</geom>
+			<Str sr="arg0" ve="3">WaitLabel</Str>
+			<Str sr="arg1" ve="3">Por favor, esperar...</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="99"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#33FFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">GUI</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneVariable Query">
+		<cdate>1497217647924</cdate>
+		<edate>1500036980975</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>641</heightPort>
+		<nme>Variable Query</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>742</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>13,0,729,162,6,0,324,72</geom>
+			<Str sr="arg0" ve="3">Title</Str>
+			<Str sr="arg1" ve="3">Insertar path a la SD</Str>
+			<Int sr="arg2" val="22"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0099CC</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<RectElement sr="elements1">
+			<flags>4</flags>
+			<geom>0,162,742,6,0,162,742,6</geom>
+			<Str sr="arg0" ve="3">Header</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#77333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<EditTextElement sr="elements2" ve="3">
+			<flags>13</flags>
+			<geom>31,208,686,248,31,261,679,162</geom>
+			<Str sr="arg0" ve="3">TextEdit1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<RectElement sr="elements3">
+			<flags>4</flags>
+			<geom>0,506,742,6,0,506,742,6</geom>
+			<Str sr="arg0" ve="3">Footer</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#77333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<ImageElement sr="elements4" ve="2">
+			<clickTask>-936</clickTask>
+			<flags>4</flags>
+			<geom>117,506,135,135,117,506,135,135</geom>
+			<Str sr="arg0" ve="3">Accept</Str>
+			<Img sr="arg1" ve="2">
+				<nme>hd_navigation_accept</nme>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#FF0099CC</Str>
+		</ImageElement>
+		<ImageElement sr="elements5" ve="2">
+			<clickTask>-936</clickTask>
+			<flags>4</flags>
+			<geom>490,506,135,135,490,506,135,135</geom>
+			<Str sr="arg0" ve="3">Cancel</Str>
+			<Img sr="arg1" ve="2">
+				<nme>hd_content_remove</nme>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#FF0099CC</Str>
+		</ImageElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Variable Query</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneWAMedia2SDHome">
+		<cdate>1499435501179</cdate>
+		<edate>1500426057464</edate>
+		<heightLand>1080</heightLand>
+		<heightPort>1176</heightPort>
+		<nme>WAMedia2SDHome</nme>
+		<widthLand>774</widthLand>
+		<widthPort>774</widthPort>
+		<RectElement sr="elements0">
+			<flags>6</flags>
+			<geom>0,0,774,1176,0,0,702,1080</geom>
+			<Str sr="arg0" ve="3">Rectángulo1</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FF367E05</Str>
+			<Str sr="arg3" ve="3">#FF1F4806</Str>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<CheckBoxElement sr="elements1">
+			<checkchangeTask>23</checkchangeTask>
+			<flags>4</flags>
+			<geom>399,222,326,98,128,352,420,154</geom>
+			<Str sr="arg0" ve="3">AudioCheckBox</Str>
+			<Int sr="arg1" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</CheckBoxElement>
+		<ButtonElement sr="elements10" ve="3">
+			<clickTask>11</clickTask>
+			<flags>4</flags>
+			<geom>33,953,317,173,33,907,341,173</geom>
+			<Str sr="arg0" ve="3">BotónSalir</Str>
+			<Str sr="arg1" ve="3">Cancelar</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF7AAC76</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Img sr="arg7" ve="2">
+				<nme>hd_ab_content_remove</nme>
+			</Img>
+		</ButtonElement>
+		<TextElement sr="elements11" ve="3">
+			<flags>4</flags>
+			<geom>618,685,146,98,79,179,598,228</geom>
+			<Str sr="arg0" ve="3">Días</Str>
+			<Str sr="arg1" ve="3">días</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="99"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements12" ve="3">
+			<flags>4</flags>
+			<geom>140,344,244,97,153,426,421,154</geom>
+			<Str sr="arg0" ve="3">Imagenes</Str>
+			<Str sr="arg1" ve="3">Imagenes</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="99"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<CheckBoxElement sr="elements13">
+			<checkchangeTask>19</checkchangeTask>
+			<flags>4</flags>
+			<geom>58,465,317,98,128,352,420,154</geom>
+			<Str sr="arg0" ve="3">VideoCheckBox</Str>
+			<Int sr="arg1" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</CheckBoxElement>
+		<TextElement sr="elements14" ve="3">
+			<flags>4</flags>
+			<geom>140,465,244,98,153,426,421,154</geom>
+			<Str sr="arg0" ve="3">Vídeos</Str>
+			<Str sr="arg1" ve="3">Videos</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="99"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<CheckBoxElement sr="elements15">
+			<checkchangeTask>20</checkchangeTask>
+			<flags>4</flags>
+			<geom>399,344,326,97,128,352,420,154</geom>
+			<Str sr="arg0" ve="3">GifCheckBox</Str>
+			<Int sr="arg1" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</CheckBoxElement>
+		<TextElement sr="elements16" ve="3">
+			<flags>4</flags>
+			<geom>480,344,155,98,153,426,421,154</geom>
+			<Str sr="arg0" ve="3">Gifs</Str>
+			<Str sr="arg1" ve="3">Gifs</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="99"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements17" ve="3">
+			<flags>4</flags>
+			<geom>140,563,244,98,153,426,421,154</geom>
+			<Str sr="arg0" ve="3">Documentos</Str>
+			<Str sr="arg1" ve="3">Documentos</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="99"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements18" ve="3">
+			<flags>4</flags>
+			<geom>480,222,146,98,153,426,421,154</geom>
+			<Str sr="arg0" ve="3">Audios</Str>
+			<Str sr="arg1" ve="3">Audios</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="99"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<CheckBoxElement sr="elements19">
+			<checkchangeTask>24</checkchangeTask>
+			<flags>4</flags>
+			<geom>399,465,277,98,128,352,420,154</geom>
+			<Str sr="arg0" ve="3">DbCheckBox</Str>
+			<Int sr="arg1" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</CheckBoxElement>
+		<CheckBoxElement sr="elements2">
+			<checkchangeTask>21</checkchangeTask>
+			<flags>4</flags>
+			<geom>58,222,319,106,128,352,420,154</geom>
+			<Str sr="arg0" ve="3">VoiceNotesCheckBox</Str>
+			<Int sr="arg1" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</CheckBoxElement>
+		<TextElement sr="elements20" ve="3">
+			<flags>4</flags>
+			<geom>480,465,244,98,153,426,421,154</geom>
+			<Str sr="arg0" ve="3">DataBases</Str>
+			<Str sr="arg1" ve="3">Bases de Datos</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="99"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements21" ve="3">
+			<clickTask>35</clickTask>
+			<flags>4</flags>
+			<geom>642,27,98,98,642,27,98,98</geom>
+			<Str sr="arg0" ve="3">AvanzadoBoton</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>hd_action_settings</nme>
+			</Img>
+		</ButtonElement>
+		<ButtonElement sr="elements3" ve="3">
+			<clickTask>10</clickTask>
+			<flags>4</flags>
+			<geom>423,953,297,173,128,907,395,173</geom>
+			<Str sr="arg0" ve="3">Launch</Str>
+			<Str sr="arg1" ve="3">Mover</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFADEEB6</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Img sr="arg7" ve="2">
+				<nme>hd_social_send_now</nme>
+			</Img>
+		</ButtonElement>
+		<CheckBoxElement sr="elements4">
+			<checkchangeTask>18</checkchangeTask>
+			<flags>4</flags>
+			<geom>58,344,317,106,128,352,420,154</geom>
+			<Str sr="arg0" ve="3">ImagesCheckBox</Str>
+			<Int sr="arg1" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</CheckBoxElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>140,222,244,98,153,426,421,154</geom>
+			<Str sr="arg0" ve="3">Mensajes Audio</Str>
+			<Str sr="arg1" ve="3">Mensajes de voz</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="99"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PickerElement sr="elements6">
+			<flags>4</flags>
+			<geom>447,660,172,149,29,154,223,228</geom>
+			<valueselectedTask>9</valueselectedTask>
+			<Str sr="arg0" ve="3">Selector Antigüedad</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="30"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</PickerElement>
+		<TextElement sr="elements7" ve="3">
+			<flags>4</flags>
+			<geom>33,685,423,98,79,179,598,228</geom>
+			<Str sr="arg0" ve="3">Dias De Antiguedad</Str>
+			<Str sr="arg1" ve="3">Omitir archivos de los últimos</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="99"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="4"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<CheckBoxElement sr="elements8">
+			<checkchangeTask>22</checkchangeTask>
+			<flags>4</flags>
+			<geom>58,563,319,106,128,352,420,154</geom>
+			<Str sr="arg0" ve="3">DocsCheckBox</Str>
+			<Int sr="arg1" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</CheckBoxElement>
+		<TextElement sr="elements9" ve="3">
+			<flags>4</flags>
+			<geom>155,2,414,204,54,80,544,204</geom>
+			<Str sr="arg0" ve="3">Titulo</Str>
+			<Str sr="arg1" ve="3">Mover Archivos WhatsApp a SD</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#33FFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">GUI</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task10">
+		<cdate>1499731652484</cdate>
+		<edate>1499731652484</edate>
+		<id>10</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>Has user selected anything?</label>
+			<Str sr="arg0" ve="3">%Proceed</Str>
+			<Str sr="arg1" ve="3">%UserVoiceNotes+%UserVideo+%UserImages+%UserGifs+%UserDocuments+%UserDataBases+%UserAudio</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<label>Check if any Media has been selected</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Proceed</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<label>Set %Proceed=1</label>
+			<Str sr="arg0" ve="3">%Proceed</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">Advanced</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AdvancedOpen</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">WAMedia2SDHome</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Espera...</Str>
+			<Int sr="arg1" val="9"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>130</code>
+			<label>Start Moving 2 SD</label>
+			<Str sr="arg0" ve="3">Move2SD</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>548</code>
+			<label>Alert no media has been selected</label>
+			<Str sr="arg0" ve="3">Seleccionar almenos un tipo de archivo</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task11">
+		<cdate>1499731707216</cdate>
+		<edate>1499731707216</edate>
+		<id>11</id>
+		<pri>106</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>Do not continue</label>
+			<Str sr="arg0" ve="3">%Proceed</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AdvancedOpen</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>49</code>
+			<label>Destroy Advanced scene</label>
+			<Str sr="arg0" ve="3">Advanced</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AdvancedOpen</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>49</code>
+			<label>Destroy scene</label>
+			<Str sr="arg0" ve="3">WAMedia2SDHome</Str>
+		</Action>
+	</Task>
+	<Task sr="task12">
+		<cdate>1500037110099</cdate>
+		<edate>1501508591828</edate>
+		<id>12</id>
+		<nme>WAMedia2SD</nme>
+		<pri>100</pri>
+		<Kid sr="Kid">
+			<flgs>1</flgs>
+			<launchID>12</launchID>
+			<pkg>com.hotmail.alfredocapobianchi.wamedia2sd</pkg>
+			<vMin>16</vMin>
+			<vnme>dev.13</vnme>
+			<vnum>13</vnum>
+		</Kid>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>set version number</label>
+			<Str sr="arg0" ve="3">%VerNo</Str>
+			<Str sr="arg1" ve="3">dev.14</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>set %AppFolder=WAMedia2SD</label>
+			<Str sr="arg0" ve="3">%AppFolder</Str>
+			<Str sr="arg1" ve="3">WAMedia2SD</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<label>Set Simulation Mode var</label>
+			<Str sr="arg0" ve="3">%SimMode</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<label>Set %minAge=1 day (3600*24*1 secs)</label>
+			<Str sr="arg0" ve="3">%minAge</Str>
+			<Str sr="arg1" ve="3">3600*24*1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%TaskEnded</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>549</code>
+			<label>Clear %OnSreenLog</label>
+			<Str sr="arg0" ve="3">%OnSreenLog</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>47</code>
+			<label>Show GUI</label>
+			<Str sr="arg0" ve="3">WAMedia2SDHome</Str>
+			<Int sr="arg1" val="9"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AdvancedOpen</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>137</code>
+			<label>End WAMedia2SD</label>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<label>init. %UserVoiceNotes=0</label>
+			<Str sr="arg0" ve="3">%UserVoiceNotes</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<label>init. %UserAudio=0</label>
+			<Str sr="arg0" ve="3">%UserAudio</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<label>init. %UserImages=0</label>
+			<Str sr="arg0" ve="3">%UserImages</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<label>init. %UserVideo=0</label>
+			<Str sr="arg0" ve="3">%UserVideo</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<label>init. %UserGifs=0</label>
+			<Str sr="arg0" ve="3">%UserGifs</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<label>init. %UserDocuments=0</label>
+			<Str sr="arg0" ve="3">%UserDocuments</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<label>init. %UserDataBases=0</label>
+			<Str sr="arg0" ve="3">%UserDataBases</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<label>Set %DebugMode=1</label>
+			<Str sr="arg0" ve="3">%DebugMode</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<uri>content://com.android.externalstorage.documents/document/primary%3ADCIM%2FCamera%2FP_20170716_162100_1_1.jpg</uri>
+		</Img>
+	</Task>
+	<Task sr="task18">
+		<cdate>1499435579450</cdate>
+		<edate>1499435579450</edate>
+		<id>18</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>Check if %UserImages==1</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UserImages</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>set %UserImages=0</label>
+			<Str sr="arg0" ve="3">%UserImages</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<label>set %UserImages=1</label>
+			<Str sr="arg0" ve="3">%UserImages</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<label>[alert] Images selected</label>
+			<Str sr="arg0" ve="3">Las imágenes se moverán a la tarjeta SD</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task19">
+		<cdate>1499435579450</cdate>
+		<edate>1499435579450</edate>
+		<id>19</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>Check if %UserVideo==1</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UserVideo</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>set %UserVideo=0</label>
+			<Str sr="arg0" ve="3">%UserVideo</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<label>set %UserVideo=1</label>
+			<Str sr="arg0" ve="3">%UserVideo</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<label>[alert] Videos selected</label>
+			<Str sr="arg0" ve="3">Los videos se moverán a la tarjeta SD</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task20">
+		<cdate>1499435579450</cdate>
+		<edate>1499435579450</edate>
+		<id>20</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>Check if %UserGifs==1</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UserGifs</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>set %UserGifs=0</label>
+			<Str sr="arg0" ve="3">%UserGifs</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<label>set %UserGifs=1</label>
+			<Str sr="arg0" ve="3">%UserGifs</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<label>[alert] Gifs selected</label>
+			<Str sr="arg0" ve="3">Los gifs se moverán a la tarjeta SD</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task21">
+		<cdate>1499435579450</cdate>
+		<edate>1499435579450</edate>
+		<id>21</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>Check if %UserVoiceNotes==1</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UserVoiceNotes</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>set %UserVoiceNotes=0</label>
+			<Str sr="arg0" ve="3">%UserVoiceNotes</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<label>set %UserVoiceNotes=1</label>
+			<Str sr="arg0" ve="3">%UserVoiceNotes</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<label>[alert] Voice Notes selected</label>
+			<Str sr="arg0" ve="3">Los mensajes de voz se moverán a la tarjeta SD</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task22">
+		<cdate>1499435579450</cdate>
+		<edate>1499435579450</edate>
+		<id>22</id>
+		<pri>106</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>Check if %UserDocuments==1</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UserDocuments</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>set %UserDocuments=0</label>
+			<Str sr="arg0" ve="3">%UserDocuments</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<label>set %UserDocuments=1</label>
+			<Str sr="arg0" ve="3">%UserDocuments</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<label>[alert] Docs selected</label>
+			<Str sr="arg0" ve="3">Los documentos se moverán a la tarjeta SD</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task23">
+		<cdate>1499435579450</cdate>
+		<edate>1499435579450</edate>
+		<id>23</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>Check if %UserAudio==1</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UserAudio</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>set %UserAudio=0</label>
+			<Str sr="arg0" ve="3">%UserAudio</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<label>set %UserAudio=1</label>
+			<Str sr="arg0" ve="3">%UserAudio</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<label>[alert] Audios selected</label>
+			<Str sr="arg0" ve="3">Los audios se moverán a la tarjeta SD</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task24">
+		<cdate>1499435579450</cdate>
+		<edate>1499435579450</edate>
+		<id>24</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>Check if %UserDataBases==1</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UserDataBases</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>set %UserDataBases=0</label>
+			<Str sr="arg0" ve="3">%UserDataBases</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<label>set %UserDataBases=1</label>
+			<Str sr="arg0" ve="3">%UserDataBases</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<label>[alert] Data Bases selected</label>
+			<Str sr="arg0" ve="3">Los respaldos de la base de datos se moverán a la tarjeta SD</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task27">
+		<cdate>1499731652484</cdate>
+		<edate>1499731652484</edate>
+		<id>27</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>48</code>
+			<label>Hide Advanced</label>
+			<Str sr="arg0" ve="3">Advanced</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task28">
+		<cdate>1499435579450</cdate>
+		<edate>1499435579450</edate>
+		<id>28</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>Check if %DebugMode==1</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DebugMode</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>set %DebugMode=0</label>
+			<Str sr="arg0" ve="3">%DebugMode</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<label>set %DebugMode=1</label>
+			<Str sr="arg0" ve="3">%DebugMode</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task3">
+		<cdate>1497480995448</cdate>
+		<edate>1501508460512</edate>
+		<id>3</id>
+		<nme>GetPath2SD</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>set %SDPathFound=0</label>
+			<Str sr="arg0" ve="3">%SDPathFound</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>409</code>
+			<label>create App folder on "SD" (internal memory)</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%AppFolder</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>410</code>
+			<label>[log] write "Paths found:" to %testDirLog</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%testDirLog</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME (%TIMEMS) GetPath2SD: Paths found:</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DebugMode</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>412</code>
+			<label>Scan %Path contents and store them in %Paths</label>
+			<Str sr="arg0" ve="3">%Path</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%Paths</Str>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%Paths</Str>
+			<Str sr="arg1" ve="3">%Paths()</Str>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>37</code>
+			<label>proceed if SDroot was not found yet</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SDPathFound</lhs>
+					<op>0</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>410</code>
+			<label>[log] write %Paths in %testDirLog</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%testDirLog</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME (%TIMEMS) GetPath2SD: %Paths</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DebugMode</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>130</code>
+			<label>test %Paths folder and return result in %SDPathFound</label>
+			<Str sr="arg0" ve="3">TestSDroot</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">%Paths</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%SDPathFound</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>37</code>
+			<label>[disabled] if SD path was not found yet, try /fstab</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SDPathFound</lhs>
+					<op>0</op>
+					<rhs>2</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<label>[log] set %testDirLog for SDroot testing</label>
+			<Str sr="arg0" ve="3">%testDirLog</Str>
+			<Str sr="arg1" ve="3">%AppFolder/testDir_%DATE_%TIME.log</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>342</code>
+			<label>check if /fstab exists and set %fstabExists</label>
+			<Int sr="arg0" val="4"/>
+			<Str sr="arg1" ve="3">/fstab</Str>
+			<Str sr="arg2" ve="3">%fstabExists</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>37</code>
+			<label>parse /fstab, if it was found</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%fstabExists</lhs>
+					<op>0</op>
+					<rhs>file</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>417</code>
+			<label>Read /fstab to %fstabContent</label>
+			<Str sr="arg0" ve="3">/fstab</Str>
+			<Str sr="arg1" ve="3">%fstabContent</Str>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>590</code>
+			<label>split %fstabContent with " " separator</label>
+			<Str sr="arg0" ve="3">%fstabContent</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>547</code>
+			<label>set %mmSys=0</label>
+			<Str sr="arg0" ve="3">%mmSys</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>39</code>
+			<label>Scan %fstabContent</label>
+			<Str sr="arg0" ve="3">%fstabContent</Str>
+			<Str sr="arg1" ve="3">%fstabContent()</Str>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>37</code>
+			<label>proceed if SDroot was not found yet</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SDPathFound</lhs>
+					<op>0</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%fstabContent</lhs>
+					<op>2</op>
+					<rhs>*mmcblk*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>547</code>
+			<label>set %mmSys=1, if string matches</label>
+			<Str sr="arg0" ve="3">%mmSys</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>664</code>
+			<label>get external storage dir with java</label>
+			<on>false</on>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%A1SDPathFound</Str>
+			<Str sr="arg1" ve="3">Environment</Str>
+			<Str sr="arg2" ve="3">getExternalStorageDirectory
+{File} ()</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%mmSys</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>410</code>
+			<label>[log] write %fstabContent in %testDirLog</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%testDirLog</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME (%TIMEMS) GetPath2SD: %fstabContent</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DebugMode</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>130</code>
+			<label>test %fstabContent folder and set %SDPathFound</label>
+			<Str sr="arg0" ve="3">TestSDroot</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">%fstabContent</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%SDPathFound</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>547</code>
+			<label>set %mmSys=0</label>
+			<Str sr="arg0" ve="3">%mmSys</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SDPathFound</lhs>
+					<op>1</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act39" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>664</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%A2SDPathFound</Str>
+			<Str sr="arg1" ve="3">CONTEXT</Str>
+			<Str sr="arg2" ve="3">getExternalFilesDir
+{File} (String)</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act40" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DebugMode</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>37</code>
+			<label>proceed if SDroot was found</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SDPathFound</lhs>
+					<op>1</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act42" ve="7">
+			<code>547</code>
+			<label>[log] set %logsDir</label>
+			<Str sr="arg0" ve="3">%logsDir</Str>
+			<Str sr="arg1" ve="3">%SDPathFound/%WADir/logs</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act43" ve="7">
+			<code>410</code>
+			<label>[log] write log with SD found path</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%testDirLog</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME (%TIMEMS) GetPath2SD: [GRE] microSD Path found=%SDPathFound logsDir=%logsDir logsDir_exists=%logsDir_exists</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act44" ve="7">
+			<code>342</code>
+			<label>[log] test if log dir exists on SD and store result in %logsDir_exists</label>
+			<se>false</se>
+			<Int sr="arg0" val="4"/>
+			<Str sr="arg1" ve="3">%logsDir</Str>
+			<Str sr="arg2" ve="3">%logsDir_exists</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act45" ve="7">
+			<code>409</code>
+			<label>[log] create log dir on SD</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%logsDir</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%logsDir_exists</lhs>
+					<op>1</op>
+					<rhs>dir</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act46" ve="7">
+			<code>404</code>
+			<label>[log] copy log to SD log</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%testDirLog</Str>
+			<Str sr="arg1" ve="3">%logsDir</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act47" ve="7">
+			<code>406</code>
+			<label>[log] delete log on internal memory</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%testDirLog</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act48" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act49" ve="7">
+			<code>410</code>
+			<label>[log] write log with path not found</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%testDirLog</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME (%TIMEMS) GetPath2SD: [RED] microSD path NOT found</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>664</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%A3SDPathFound</Str>
+			<Str sr="arg1" ve="3">System</Str>
+			<Str sr="arg2" ve="3">getenv
+{Map} (par1)</Str>
+			<Str sr="arg3" ve="3">EXTERNAL_STORAGE</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act50" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act51" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act52" ve="7">
+			<code>126</code>
+			<label>return %SDPathFound</label>
+			<Str sr="arg0" ve="3">%SDPathFound/</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>664</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%ExtStorageState</Str>
+			<Str sr="arg1" ve="3">Environment</Str>
+			<Str sr="arg2" ve="3">getExternalStorageState
+{String} ()</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>37</code>
+			<label>Check if SD path was found</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SDPathFound</lhs>
+					<op>2</op>
+					<rhs>*0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>129</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">public class StorageUtils {
+
+    private static final String TAG = "StorageUtils";
+
+    public static class StorageInfo {
+
+        public final String path;
+        public final boolean internal;
+        public final boolean readonly;
+        public final int display_number;
+
+        StorageInfo(String path, boolean internal, boolean readonly, int display_number) {
+            this.path = path;
+            this.internal = internal;
+            this.readonly = readonly;
+            this.display_number = display_number;
+        }
+
+        public String getDisplayName() {
+            StringBuilder res = new StringBuilder();
+            if (internal) {
+                res.append("Internal SD card");
+            } else if (display_number &gt; 1) {
+                res.append("SD card " + display_number);
+            } else {
+                res.append("SD card");
+            }
+            if (readonly) {
+                res.append(" (Read only)");
+            }
+            return res.toString();
+        }
+    }
+
+    public static List&lt;StorageInfo&gt; getStorageList() {
+
+        List&lt;StorageInfo&gt; list = new ArrayList&lt;StorageInfo&gt;();
+        String def_path = Environment.getExternalStorageDirectory().getPath();
+        boolean def_path_internal = !Environment.isExternalStorageRemovable();
+        String def_path_state = Environment.getExternalStorageState();
+        boolean def_path_available = def_path_state.equals(Environment.MEDIA_MOUNTED)
+                                    || def_path_state.equals(Environment.MEDIA_MOUNTED_READ_ONLY);
+        boolean def_path_readonly = Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED_READ_ONLY);
+        BufferedReader buf_reader = null;
+        try {
+            HashSet&lt;String&gt; paths = new HashSet&lt;String&gt;();
+            buf_reader = new BufferedReader(new FileReader("/proc/mounts"));
+            String line;
+            int cur_display_number = 1;
+            Log.d(TAG, "/proc/mounts");
+            while ((line = buf_reader.readLine()) != null) {
+                Log.d(TAG, line);
+                if (line.contains("vfat") || line.contains("/mnt")) {
+                    StringTokenizer tokens = new StringTokenizer(line, " ");
+                    String unused = tokens.nextToken(); //device
+                    String mount_point = tokens.nextToken(); //mount point
+                    if (paths.contains(mount_point)) {
+                        continue;
+                    }
+                    unused = tokens.nextToken(); //file system
+                    List&lt;String&gt; flags = Arrays.asList(tokens.nextToken().split(",")); //flags
+                    boolean readonly = flags.contains("ro");
+
+                    if (mount_point.equals(def_path)) {
+                        paths.add(def_path);
+                        list.add(0, new StorageInfo(def_path, def_path_internal, readonly, -1));
+                    } else if (line.contains("/dev/block/vold")) {
+                        if (!line.contains("/mnt/secure")
+                            &amp;&amp; !line.contains("/mnt/asec")
+                            &amp;&amp; !line.contains("/mnt/obb")
+                            &amp;&amp; !line.contains("/dev/mapper")
+                            &amp;&amp; !line.contains("tmpfs")) {
+                            paths.add(mount_point);
+                            list.add(new StorageInfo(mount_point, false, readonly, cur_display_number++));
+                        }
+                    }
+                }
+            }
+
+            if (!paths.contains(def_path) &amp;&amp; def_path_available) {
+                list.add(0, new StorageInfo(def_path, def_path_internal, def_path_readonly, -1));
+            }
+
+        } catch (FileNotFoundException ex) {
+            ex.printStackTrace();
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        } finally {
+            if (buf_reader != null) {
+                try {
+                    buf_reader.close();
+                } catch (IOException ex) {}
+            }
+        }
+        return list;
+    }    
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<label>Set test %Path=/storage/</label>
+			<Str sr="arg0" ve="3">%Path</Str>
+			<Str sr="arg1" ve="3">/storage/</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_device_access_sd_storage</nme>
+		</Img>
+	</Task>
+	<Task sr="task30">
+		<cdate>1499435579450</cdate>
+		<edate>1499435579450</edate>
+		<id>30</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>Check if %SimMode==1</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SimMode</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>set %SimMode=0</label>
+			<Str sr="arg0" ve="3">%SimMode</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<label>set %SimMode=1</label>
+			<Str sr="arg0" ve="3">%SimMode</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task35">
+		<cdate>1499945659764</cdate>
+		<edate>1499945659764</edate>
+		<id>35</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>Set %AdvancedOpen=1</label>
+			<Str sr="arg0" ve="3">%AdvancedOpen</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>47</code>
+			<label>show advanced</label>
+			<Str sr="arg0" ve="3">Advanced</Str>
+			<Int sr="arg1" val="9"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task4">
+		<cdate>1496562547353</cdate>
+		<edate>1500423628443</edate>
+		<id>4</id>
+		<nme>Move2SD</nme>
+		<pri>100</pri>
+		<Kid sr="Kid">
+			<launchID>4</launchID>
+			<pkg>com.hotmail.alfredocapobianchi.movecom.hotmail.alfredocapobianchi.whatsappmediatosd</pkg>
+			<vnme>0.1</vnme>
+			<vnum>2</vnum>
+		</Kid>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>set WA folder</label>
+			<Str sr="arg0" ve="3">%WADir</Str>
+			<Str sr="arg1" ve="3">WhatsApp</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<label>[msg] hola</label>
+			<Str sr="arg0" ve="3">UpdateMsg</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">Hola!</Str>
+			<Str sr="arg3" ve="3">1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<label>append to %SelectedMedia</label>
+			<Str sr="arg0" ve="3">%SelectedMedia</Str>
+			<Str sr="arg1" ve="3"> recibidos y enviados por WhatsApp</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act100" ve="7">
+			<code>412</code>
+			<label>Build %Media list of all files in %Folder%Sent folder</label>
+			<Str sr="arg0" ve="3">%Folder%Sent</Str>
+			<Str sr="arg1" ve="3">*.*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%Media</Str>
+		</Action>
+		<Action sr="act101" ve="7">
+			<code>548</code>
+			<label>[dbg] alert with number of files found</label>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%Media(#) archivos encontrados en carpeta %Folder%Sent!</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act102" ve="7">
+			<code>39</code>
+			<label>Process %Media files one by one</label>
+			<Str sr="arg0" ve="3">%Media</Str>
+			<Str sr="arg1" ve="3">%Media()</Str>
+		</Action>
+		<Action sr="act103" ve="7">
+			<code>547</code>
+			<label>Set %Media_age=%Now</label>
+			<Str sr="arg0" ve="3">%Media_age</Str>
+			<Str sr="arg1" ve="3">%Now</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act104" ve="7">
+			<code>342</code>
+			<label>Get %Media modification date and store it in %Media_date</label>
+			<Int sr="arg0" val="1"/>
+			<Str sr="arg1" ve="3">%Media</Str>
+			<Str sr="arg2" ve="3">%Media_date</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act105" ve="7">
+			<code>890</code>
+			<label>%Media_age=%Media_age - %Media_date</label>
+			<Str sr="arg0" ve="3">%Media_age</Str>
+			<Int sr="arg1">
+				<var>%Media_date</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act106" ve="7">
+			<code>404</code>
+			<label>Copy %Media to %destFolder, if not in simulation mode and %Media_age higher than %minAge</label>
+			<Str sr="arg0" ve="3">%Media</Str>
+			<Str sr="arg1" ve="3">%destFolder</Str>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%SimMode</lhs>
+					<op>1</op>
+					<rhs>1</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%Media_age</lhs>
+					<op>7</op>
+					<rhs>%minAge</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act107" ve="7">
+			<code>410</code>
+			<label>[dbg] write %Media to %LOG</label>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%LOG</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME: [dbg] Media=%Media</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act108" ve="7">
+			<code>547</code>
+			<label>Set var to be split %MediaName=%Media</label>
+			<Str sr="arg0" ve="3">%MediaName</Str>
+			<Str sr="arg1" ve="3">%Media</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act109" ve="7">
+			<code>590</code>
+			<label>Split %MediaName path into chunks</label>
+			<Str sr="arg0" ve="3">%MediaName</Str>
+			<Str sr="arg1" ve="3">/</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>130</code>
+			<label>[msg] list selected items</label>
+			<Str sr="arg0" ve="3">UpdateMsg</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">%SelectedMedia</Str>
+			<Str sr="arg3" ve="3">2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act110" ve="7">
+			<code>549</code>
+			<label>Clear check var</label>
+			<Str sr="arg0" ve="3">%Media_exists_on_dest</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act111" ve="7">
+			<code>342</code>
+			<label>Check %destFolder%MediaName(end)
+if media has been copied to destination folder</label>
+			<se>false</se>
+			<Int sr="arg0" val="4"/>
+			<Str sr="arg1" ve="3">%destFolder%MediaName(&lt;)</Str>
+			<Str sr="arg2" ve="3">%Media_exists_on_dest</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act112" ve="7">
+			<code>37</code>
+			<label>Check if file has been transferred</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Media_exists_on_dest</lhs>
+					<op>0</op>
+					<rhs>file</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act113" ve="7">
+			<code>342</code>
+			<label>Get %Media size and store it in %MediaSize</label>
+			<se>false</se>
+			<Int sr="arg0" val="3"/>
+			<Str sr="arg1" ve="3">%Media</Str>
+			<Str sr="arg2" ve="3">%MediaSize</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act114" ve="7">
+			<code>342</code>
+			<label>Get size of %Media and store it in %MediaSize_onSD</label>
+			<se>false</se>
+			<Int sr="arg0" val="3"/>
+			<Str sr="arg1" ve="3">%Media</Str>
+			<Str sr="arg2" ve="3">%MediaSize_onSD</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act115" ve="7">
+			<code>37</code>
+			<label>check if %MediaSize==%MediaSize_onSD</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%MediaSize</lhs>
+					<op>8</op>
+					<rhs>%MediaSize_onSD</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act116" ve="7">
+			<code>406</code>
+			<label>Delete file from internal memory, if not in simulation mode</label>
+			<Str sr="arg0" ve="3">%Media</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%Media</lhs>
+					<op>3</op>
+					<rhs>*msgstore.db.crypt12</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SimMode</lhs>
+					<op>1</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act117" ve="7">
+			<code>410</code>
+			<label>[dbg] write %LOG with file moved to destination</label>
+			<Str sr="arg0" ve="3">%LOG</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME: [GRE] %MediaName(&lt;) movido</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act118" ve="7">
+			<code>888</code>
+			<label>Increase by 1 number of files moved</label>
+			<Str sr="arg0" ve="3">%nFiles</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act119" ve="7">
+			<code>888</code>
+			<label>sum %MediaSize to %TotalFreedSpace</label>
+			<Str sr="arg0" ve="3">%TotalFreedSpace</Str>
+			<Int sr="arg1">
+				<var>%MediaSize/1024/1024</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>130</code>
+			<label>[msg] searching SD path...</label>
+			<Str sr="arg0" ve="3">UpdateMsg</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">La aplicación está buscando la ruta a la tarjeta SD donde mover los archivos seleccionados recibidos y enviados por WhatsApp...</Str>
+			<Str sr="arg3" ve="3">2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act120" ve="7">
+			<code>43</code>
+			<label>size on SD is not equal to size on internal memory</label>
+		</Action>
+		<Action sr="act121" ve="7">
+			<code>410</code>
+			<label>Report %Media moved to destination with error</label>
+			<Str sr="arg0" ve="3">%LOG</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME: [YEL] %Media movido a SD, pero el tamaño no coincide con el del archivo original. No se elimina de la memoria interna.</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act122" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act123" ve="7">
+			<code>43</code>
+			<label>Media not transferred</label>
+		</Action>
+		<Action sr="act124" ve="7">
+			<code>410</code>
+			<label>[dbg] write %LOG with file NOT moved to destination</label>
+			<Str sr="arg0" ve="3">%LOG</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME: [RED] %MediaName(&lt;) NO movido</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act125" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act126" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act127" ve="7">
+			<code>130</code>
+			<label>[msg] Inform number of files moved to SD</label>
+			<Str sr="arg0" ve="3">UpdateMsg</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">Hasta el momento, se movieron a la tarjeta SD %nFiles archivos, liberando un total de %TotalFreedSpace MB</Str>
+			<Str sr="arg3" ve="3">3</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act128" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act129" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>130</code>
+			<label>Simple Get path2SD</label>
+			<on>false</on>
+			<Str sr="arg0" ve="3">SimplePath2SD</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%SDroot</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act130" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act131" ve="7">
+			<code>410</code>
+			<label>[dbg] Report processed dir to %LOG</label>
+			<Str sr="arg0" ve="3">%LOG</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME: [MSG] %Folder procesada.</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act132" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act133" ve="7">
+			<code>410</code>
+			<label>[dbg] write stats to %LOG</label>
+			<Str sr="arg0" ve="3">%LOG</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME: [MSG] %nFiles archivos WhatsApp movidos.
+%DATE %TIME: [MSG] %nFolders carpetas Audio WhatsApp movidas.
+%DATE %TIME: [MSG] %TotalFreedSpace bytes de espacio liberado.
+%DATE %TIME: [MSG] Fin liberación memoria interna.</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act134" ve="7">
+			<code>37</code>
+			<label>Check if %logsDir_exists=dir</label>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%logsDir_exists</lhs>
+					<op>0</op>
+					<rhs>dir</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%logsDir</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act135" ve="7">
+			<code>404</code>
+			<label>[dbg] Copy %LOG to %logFinalDir</label>
+			<Str sr="arg0" ve="3">%LOG</Str>
+			<Str sr="arg1" ve="3">%logsDir</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act136" ve="7">
+			<code>406</code>
+			<label>Delete log on internal memory</label>
+			<Str sr="arg0" ve="3">%LOG</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act137" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act138" ve="7">
+			<code>130</code>
+			<label>[msg] report nfiles</label>
+			<Str sr="arg0" ve="3">UpdateMsg</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">Reporte final. Se movieron a la tarjeta SD %nFiles archivos y %nFolders carpetas, liberando de la memoria interna un total de %TotalFreedSpace MB</Str>
+			<Str sr="arg3" ve="3">3</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act139" ve="7">
+			<code>130</code>
+			<label>[msg] bye</label>
+			<Str sr="arg0" ve="3">UpdateMsg</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">Hasta la próxima!</Str>
+			<Str sr="arg3" ve="3">0</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>130</code>
+			<label>get %SDroot</label>
+			<Str sr="arg0" ve="3">GetPath2SD</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%SDroot</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act140" ve="7">
+			<code>300</code>
+			<label>End</label>
+		</Action>
+		<Action sr="act141" ve="7">
+			<code>51</code>
+			<label>Change Wait label in scene "Esperar..." to "Tarea Finalizada!"</label>
+			<Str sr="arg0" ve="3">Espera...</Str>
+			<Str sr="arg1" ve="3">WaitLabel</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Tarea Finalizada!</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act142" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Espera...</Str>
+			<Str sr="arg1" ve="3">AbortButton</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Cerrar</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act143" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%TaskEnded</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act144" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>548</code>
+			<label>[dbg] show %SDroot folder found</label>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Ruta a memoria externa encontrada:
+
+%SDroot
+
+Por favor esperar...</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>37</code>
+			<label>consulta variable si no se encontró la SD</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SDroot</lhs>
+					<op>0</op>
+					<rhs>0/</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>595</code>
+			<label>Ask for SD path if it was not found</label>
+			<Str sr="arg0" ve="3">Ingresar ruta de micro SD sin barra final:</Str>
+			<Str sr="arg1" ve="3">%SDroot</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">/storage/MicroSD</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">Variable Query</Str>
+			<Int sr="arg6" val="40"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>130</code>
+			<label>Set path2SD</label>
+			<Str sr="arg0" ve="3">TestSDroot</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">%SDroot</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%SDroot</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<label>init. selected media</label>
+			<Str sr="arg0" ve="3">%SelectedMedia</Str>
+			<Str sr="arg1" ve="3">Se ha elegido mover a la tarjeta SD los</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SDroot</lhs>
+					<op>0</op>
+					<rhs>0/</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>130</code>
+			<label>[msg] no path to SD</label>
+			<Str sr="arg0" ve="3">UpdateMsg</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">Se detiene la tarea porque no se encontró una ruta valida para la tarjeta SD.</Str>
+			<Str sr="arg3" ve="3">3</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">End</Str>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>547</code>
+			<label>%path2SD = %SDroot</label>
+			<Str sr="arg0" ve="3">%path2SD</Str>
+			<Str sr="arg1" ve="3">%SDroot</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>130</code>
+			<label>[msg] inform destination folder on SD</label>
+			<Str sr="arg0" ve="3">UpdateMsg</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">Los archivos WhatsApp seleccionados se moverán a:
+%path2SD</Str>
+			<Str sr="arg3" ve="3">3</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>547</code>
+			<label>set %WAmediaDir=%WADir/Media</label>
+			<Str sr="arg0" ve="3">%WAmediaDir</Str>
+			<Str sr="arg1" ve="3">%WADir/Media</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>547</code>
+			<label>WhatsApp Voice Notes folder [special]</label>
+			<Str sr="arg0" ve="3">%VoiceNotes</Str>
+			<Str sr="arg1" ve="3">%WAmediaDir/WhatsApp Voice Notes</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>357</code>
+			<label>Clear %Folder array</label>
+			<Str sr="arg0" ve="3">%Folder</Str>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>354</code>
+			<label>[dbg] Set %Folder with folders to process</label>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%Folder</Str>
+			<Str sr="arg1" ve="3">%WAmediaDir/WhatsApp Audio,%WAmediaDir/WhatsApp Voice Notes</Str>
+			<Str sr="arg2" ve="3">,</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<label>msg de voz</label>
+			<Str sr="arg0" ve="3">%SelectedMedia</Str>
+			<Str sr="arg1" ve="3"> Mensajes de voz</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UserVoiceNotes</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>412</code>
+			<label>All WA Media folders</label>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%WAmediaDir</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%Folder</Str>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>355</code>
+			<label>Push "%WADir/Databases" to %Folder array</label>
+			<Str sr="arg0" ve="3">%Folder</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%WADir/Databases</Str>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UserDataBases</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>355</code>
+			<label>Push "%WAmediaDir/WhatsApp Voice Notes" to %Folder array</label>
+			<Str sr="arg0" ve="3">%Folder</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%WAmediaDir/WhatsApp Voice Notes</Str>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UserVoiceNotes</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>355</code>
+			<label>Push "%WAmediaDir/WhatsApp Audio" to %Folder array</label>
+			<Str sr="arg0" ve="3">%Folder</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%WAmediaDir/WhatsApp Audio</Str>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UserAudio</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>355</code>
+			<label>Push "%WAmediaDir/WhatsApp Images" to %Folder array</label>
+			<Str sr="arg0" ve="3">%Folder</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%WAmediaDir/WhatsApp Images</Str>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UserImages</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>355</code>
+			<label>Push "%WAmediaDir/WhatsApp Video" to %Folder array</label>
+			<Str sr="arg0" ve="3">%Folder</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%WAmediaDir/WhatsApp Video</Str>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UserVideo</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>355</code>
+			<label>Push "%WAmediaDir/WhatsApp Gifs" to %Folder array</label>
+			<Str sr="arg0" ve="3">%Folder</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%WAmediaDir/WhatsApp Gifs</Str>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UserGifs</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>355</code>
+			<label>Push "%WAmediaDir/WhatsApp Documents" to %Folder array</label>
+			<Str sr="arg0" ve="3">%Folder</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%WAmediaDir/WhatsApp Documents</Str>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UserDocuments</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>354</code>
+			<label>Set %Sent subfolder</label>
+			<Str sr="arg0" ve="3">%Sent</Str>
+			<Str sr="arg1" ve="3">/,/Sent/</Str>
+			<Str sr="arg2" ve="3">,</Str>
+		</Action>
+		<Action sr="act39" ve="7">
+			<code>547</code>
+			<label>init. number of moved files</label>
+			<Str sr="arg0" ve="3">%nFiles</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<label>audio</label>
+			<Str sr="arg0" ve="3">%SelectedMedia</Str>
+			<Str sr="arg1" ve="3"> Audios</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UserAudio</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act40" ve="7">
+			<code>547</code>
+			<label>init. number of moved folders</label>
+			<Str sr="arg0" ve="3">%nFolders</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>547</code>
+			<label>Init total freed space</label>
+			<Str sr="arg0" ve="3">%TotalFreedSpace</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act42" ve="7">
+			<code>547</code>
+			<label>[dbg] Set temp %LOG filename</label>
+			<Str sr="arg0" ve="3">%LOG</Str>
+			<Str sr="arg1" ve="3">%path2SD%WADir/WAMedia2SD_%DATE_%TIME.log</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act43" ve="7">
+			<code>410</code>
+			<label>[dbg] Init. %LOG file</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%LOG</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME: [MSG] Inicio liberación memoria interna...</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act44" ve="7">
+			<code>342</code>
+			<label>Get %LOG current time and store it in %Now</label>
+			<Int sr="arg0" val="1"/>
+			<Str sr="arg1" ve="3">%LOG</Str>
+			<Str sr="arg2" ve="3">%Now</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act45" ve="7">
+			<code>130</code>
+			<label>[msg] Inicio limpieza</label>
+			<Str sr="arg0" ve="3">UpdateMsg</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">Inicio limpieza archivos de WhatsApp...</Str>
+			<Str sr="arg3" ve="3">1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act46" ve="7">
+			<code>39</code>
+			<label>Process all WA media folders</label>
+			<Str sr="arg0" ve="3">%Folder</Str>
+			<Str sr="arg1" ve="3">%Folder()</Str>
+		</Action>
+		<Action sr="act47" ve="7">
+			<code>130</code>
+			<label>[msg] Procesando carpeta...</label>
+			<Str sr="arg0" ve="3">UpdateMsg</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">Procesando carpeta:
+%Folder</Str>
+			<Str sr="arg3" ve="3">2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act48" ve="7">
+			<code>410</code>
+			<label>[LOG] Report dir being processed</label>
+			<Str sr="arg0" ve="3">%LOG</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME: [MSG] procesando %Folder...</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act49" ve="7">
+			<code>37</code>
+			<label>Check if it's the special folder</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Folder</lhs>
+					<op>2</op>
+					<rhs>*Notes</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<label>imágenes</label>
+			<Str sr="arg0" ve="3">%SelectedMedia</Str>
+			<Str sr="arg1" ve="3"> Imágenes</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UserImages</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act50" ve="7">
+			<code>37</code>
+			<label>Continue if %UserVoiceNotes==1</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UserVoiceNotes</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act51" ve="7">
+			<code>357</code>
+			<label>Clear subDir</label>
+			<Str sr="arg0" ve="3">%subDir</Str>
+		</Action>
+		<Action sr="act52" ve="7">
+			<code>412</code>
+			<label>List all Voice Notes subfolders in subDir var</label>
+			<Str sr="arg0" ve="3">%Folder</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%subDir</Str>
+		</Action>
+		<Action sr="act53" ve="7">
+			<code>37</code>
+			<label>Check if at least one subfolder was found</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%subDir(#)</lhs>
+					<op>1</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act54" ve="7">
+			<code>548</code>
+			<label>[dbg] alert number of subfolders found</label>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%subDir(#) carpetas encontradas en %Folder/!</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act55" ve="7">
+			<code>342</code>
+			<label>Check if destination folder exists</label>
+			<se>false</se>
+			<Int sr="arg0" val="4"/>
+			<Str sr="arg1" ve="3">%path2SD%VoiceNotes</Str>
+			<Str sr="arg2" ve="3">%VoiceNotes_exists</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act56" ve="7">
+			<code>409</code>
+			<label>Create destination folder if it not exists</label>
+			<Str sr="arg0" ve="3">%path2SD%VoiceNotes</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%VoiceNotes_exists</lhs>
+					<op>1</op>
+					<rhs>dir</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act57" ve="7">
+			<code>39</code>
+			<label>Process all subdirs</label>
+			<Str sr="arg0" ve="3">%subDir</Str>
+			<Str sr="arg1" ve="3">%subDir()</Str>
+		</Action>
+		<Action sr="act58" ve="7">
+			<code>410</code>
+			<label>[dbg] alert that subdir was found</label>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%LOG</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME: [MSG] "%subDir" encontrada.</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act59" ve="7">
+			<code>547</code>
+			<label>Set %subDir_age=%Now</label>
+			<Str sr="arg0" ve="3">%subDir_age</Str>
+			<Str sr="arg1" ve="3">%Now</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<label>gifs</label>
+			<Str sr="arg0" ve="3">%SelectedMedia</Str>
+			<Str sr="arg1" ve="3"> Gifs</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UserGifs</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act60" ve="7">
+			<code>342</code>
+			<label>Get modification date %subDir_date</label>
+			<Int sr="arg0" val="1"/>
+			<Str sr="arg1" ve="3">%subDir</Str>
+			<Str sr="arg2" ve="3">%subDir_date</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act61" ve="7">
+			<code>890</code>
+			<label>%subDir_age=%subDir_age - %subDir_date</label>
+			<Str sr="arg0" ve="3">%subDir_age</Str>
+			<Int sr="arg1">
+				<var>%subDir_date</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act62" ve="7">
+			<code>547</code>
+			<label>Set YYYYxx for splitting</label>
+			<Str sr="arg0" ve="3">%YYYYxx</Str>
+			<Str sr="arg1" ve="3">%subDir</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act63" ve="7">
+			<code>590</code>
+			<label>Get subdir path chunks</label>
+			<Str sr="arg0" ve="3">%YYYYxx</Str>
+			<Str sr="arg1" ve="3">/</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act64" ve="7">
+			<code>405</code>
+			<label>Copy %subDir/ to %path2SD%VoiceNotes/ (destination folder), if not in simulation mode and if %subDir_age is higher than %minAge</label>
+			<Str sr="arg0" ve="3">%subDir/</Str>
+			<Str sr="arg1" ve="3">%path2SD%VoiceNotes/</Str>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%SimMode</lhs>
+					<op>1</op>
+					<rhs>1</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%subDir_age</lhs>
+					<op>7</op>
+					<rhs>%minAge</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act65" ve="7">
+			<code>549</code>
+			<label>Clear %YYYYxx_exists_on_dest</label>
+			<Str sr="arg0" ve="3">%YYYYxx_exists_on_dest</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act66" ve="7">
+			<code>342</code>
+			<label>check if %path2SD%VoiceNotes/%YYYYxx(end) exists and store it in %YYYYxx_exists_on_dest</label>
+			<se>false</se>
+			<Int sr="arg0" val="4"/>
+			<Str sr="arg1" ve="3">%path2SD%VoiceNotes/%YYYYxx(&lt;)</Str>
+			<Str sr="arg2" ve="3">%YYYYxx_exists_on_dest</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act67" ve="7">
+			<code>37</code>
+			<label>Check if folder has been copied</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%YYYYxx_exists_on_dest</lhs>
+					<op>0</op>
+					<rhs>dir</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act68" ve="7">
+			<code>342</code>
+			<label>Get %subDir size and store it in %MediaSize</label>
+			<se>false</se>
+			<Int sr="arg0" val="3"/>
+			<Str sr="arg1" ve="3">%subDir</Str>
+			<Str sr="arg2" ve="3">%MediaSize</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act69" ve="7">
+			<code>342</code>
+			<label>Get size of %path2SD%VoiceNotes/%YYYYxx(end) and store it in %MediaSize_onSD</label>
+			<se>false</se>
+			<Int sr="arg0" val="3"/>
+			<Str sr="arg1" ve="3">%path2SD%VoiceNotes/%YYYYxx(&lt;)</Str>
+			<Str sr="arg2" ve="3">%MediaSize_onSD</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<label>vídeos</label>
+			<Str sr="arg0" ve="3">%SelectedMedia</Str>
+			<Str sr="arg1" ve="3"> Videos</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UserVideo</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act70" ve="7">
+			<code>37</code>
+			<label>check if %MediaSize==%MediaSize_onSD</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%MediaSize</lhs>
+					<op>8</op>
+					<rhs>%MediaSize_onSD</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act71" ve="7">
+			<code>410</code>
+			<label>Report subdir moved to destination</label>
+			<Str sr="arg0" ve="3">%LOG</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME: [GRE] %YYYYxx(&lt;) movida</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act72" ve="7">
+			<code>408</code>
+			<label>Delete source folder if it has been copied, if not in simulation mode
+
+ALERT: include single file check before deleting!!!</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%subDir</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SimMode</lhs>
+					<op>1</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act73" ve="7">
+			<code>888</code>
+			<label>sum %MediaSize to %TotalFreedSpace</label>
+			<Str sr="arg0" ve="3">%TotalFreedSpace</Str>
+			<Int sr="arg1">
+				<var>%MediaSize/1024/1024</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act74" ve="7">
+			<code>888</code>
+			<label>Increase counter of moved folders</label>
+			<Str sr="arg0" ve="3">%nFolders</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act75" ve="7">
+			<code>43</code>
+			<label>size on SD is not equal to size on internal memory</label>
+		</Action>
+		<Action sr="act76" ve="7">
+			<code>410</code>
+			<label>Report subdir moved to destination with error</label>
+			<Str sr="arg0" ve="3">%LOG</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME: [YEL] %YYYYxx(&lt;) movida a SD, pero el tamaño no coincide con la carpeta original. No se elimina de la memoria interna.</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act77" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act78" ve="7">
+			<code>43</code>
+			<label>If not exists in dest folder</label>
+		</Action>
+		<Action sr="act79" ve="7">
+			<code>410</code>
+			<label>Report subdir NOT moved to destination</label>
+			<Str sr="arg0" ve="3">%LOG</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME: [RED] %YYYYxx(&lt;) NO movida</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<label>docs</label>
+			<Str sr="arg0" ve="3">%SelectedMedia</Str>
+			<Str sr="arg1" ve="3"> Documentos</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UserDocuments</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act80" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act81" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act82" ve="7">
+			<code>130</code>
+			<label>[msg] Voice Notes processed so far</label>
+			<Str sr="arg0" ve="3">UpdateMsg</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">Hasta el momento, se movieron a la tarjeta SD: %nFolders carpetas de mensajes de voz</Str>
+			<Str sr="arg3" ve="3">3</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act83" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act84" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act85" ve="7">
+			<code>43</code>
+			<label>No Voice Notes folder</label>
+		</Action>
+		<Action sr="act86" ve="7">
+			<code>39</code>
+			<label>Scan %Sent array</label>
+			<Str sr="arg0" ve="3">%Sent</Str>
+			<Str sr="arg1" ve="3">%Sent()</Str>
+		</Action>
+		<Action sr="act87" ve="7">
+			<code>342</code>
+			<label>Check if %Folder%Sent exists and store result in %Sent_exists</label>
+			<se>false</se>
+			<Int sr="arg0" val="4"/>
+			<Str sr="arg1" ve="3">%Folder%Sent</Str>
+			<Str sr="arg2" ve="3">%Sent_exists</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act88" ve="7">
+			<code>37</code>
+			<label>Proceed only if %Sent folder exists</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Sent_exists</lhs>
+					<op>0</op>
+					<rhs>dir</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act89" ve="7">
+			<code>130</code>
+			<label>[msg] Processing Sent folder</label>
+			<Str sr="arg0" ve="3">UpdateMsg</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">Procesando carpeta:
+%Folder%Sent</Str>
+			<Str sr="arg3" ve="3">2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Sent</lhs>
+					<op>0</op>
+					<rhs>/Sent/</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<label>bases de datos</label>
+			<Str sr="arg0" ve="3">%SelectedMedia</Str>
+			<Str sr="arg1" ve="3"> Bases de datos</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UserDataBases</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act90" ve="7">
+			<code>547</code>
+			<label>Set %MediaType=%Folder (a new variable to be split)</label>
+			<Str sr="arg0" ve="3">%MediaType</Str>
+			<Str sr="arg1" ve="3">%Folder</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act91" ve="7">
+			<code>590</code>
+			<label>Split %MediaType (source folder path) with "/" as separator</label>
+			<Str sr="arg0" ve="3">%MediaType</Str>
+			<Str sr="arg1" ve="3">/</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act92" ve="7">
+			<code>37</code>
+			<label>Check if this is DB folder</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%MediaType(&lt;)</lhs>
+					<op>2</op>
+					<rhs>*Databases</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act93" ve="7">
+			<code>547</code>
+			<label>Set %destFolder=%path2SD%MediaType%Sent</label>
+			<Str sr="arg0" ve="3">%destFolder</Str>
+			<Str sr="arg1" ve="3">%path2SD%MediaType%Sent</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act94" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act95" ve="7">
+			<code>547</code>
+			<label>Set %destFolder=%path2SD%WAmediaDir/%MediaType(end)%Sent</label>
+			<Str sr="arg0" ve="3">%destFolder</Str>
+			<Str sr="arg1" ve="3">%path2SD%WAmediaDir/%MediaType(&lt;)%Sent</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act96" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act97" ve="7">
+			<code>549</code>
+			<label>Clear destDir check var</label>
+			<Str sr="arg0" ve="3">%destFolder_exists</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act98" ve="7">
+			<code>342</code>
+			<label>Check if destination folder exists</label>
+			<se>false</se>
+			<Int sr="arg0" val="4"/>
+			<Str sr="arg1" ve="3">%destFolder</Str>
+			<Str sr="arg2" ve="3">%destFolder_exists</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act99" ve="7">
+			<code>409</code>
+			<label>Create destination folder if it not exists</label>
+			<Str sr="arg0" ve="3">%destFolder</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%destFolder_exists</lhs>
+					<op>1</op>
+					<rhs>dir</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_ab_aaa_ext_export</nme>
+		</Img>
+	</Task>
+	<Task sr="task5">
+		<cdate>1497621700872</cdate>
+		<edate>1500426021515</edate>
+		<id>5</id>
+		<nme>TestSDroot</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>set default dir on sd</label>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%path2SD</Str>
+			<Str sr="arg1" ve="3">%SDroot/Android/data/net.dinglisch.android.taskerm/</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>%path2SD=0</label>
+			<Str sr="arg0" ve="3">%path2SD</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>37</code>
+			<label>if %path2SD has not been set yet</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%path2SD</lhs>
+					<op>0</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>410</code>
+			<label>[log] append checked folder to %testDirLog</label>
+			<Str sr="arg0" ve="3">%testDirLog</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME (%TIMEMS) TestSDroot: [MSG] verificando si existe el directorio %testWAfolder/%WADir</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DebugMode</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>342</code>
+			<label>check %testWAfolder type and store it to %testWA_exists</label>
+			<se>false</se>
+			<Int sr="arg0" val="4"/>
+			<Str sr="arg1" ve="3">%testWAfolder</Str>
+			<Str sr="arg2" ve="3">%testWA_exists</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>409</code>
+			<label>try to create %testWAfolder</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%testWAfolder</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%testWA_exists</lhs>
+					<op>1</op>
+					<rhs>dir</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>342</code>
+			<label>check %testWAfolder/%WADir type and store it to %WA_exists_on_SD</label>
+			<se>false</se>
+			<Int sr="arg0" val="4"/>
+			<Str sr="arg1" ve="3">%testWAfolder/%WADir</Str>
+			<Str sr="arg2" ve="3">%WA_exists_on_SD</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>37</code>
+			<label>check if %WA_exists_on_SD is dir</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WA_exists_on_SD</lhs>
+					<op>0</op>
+					<rhs>dir</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>410</code>
+			<label>[log] WA folder already exists</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%testDirLog</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME (%TIMEMS) TestSDroot: [GRE] directorio %testWAfolder/%WADir ya existe en tarjeta SD</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DebugMode</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>43</code>
+			<label>if %WA_exists_on_SD is not dir, try to create %testWAfolder/%WADir</label>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>409</code>
+			<label>try to create %testWAfolder/%WADir folder</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%testWAfolder/%WADir</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>342</code>
+			<label>check %testWAfolder/%WADir type and store it to %WA_exists_on_SD</label>
+			<se>false</se>
+			<Int sr="arg0" val="4"/>
+			<Str sr="arg1" ve="3">%testWAfolder/%WADir</Str>
+			<Str sr="arg2" ve="3">%WA_exists_on_SD</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<label>[log] set %testDirLog for sdroot testing</label>
+			<Str sr="arg0" ve="3">%testDirLog</Str>
+			<Str sr="arg1" ve="3">%AppFolder/testDir_%DATE_%TIME.log</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%testDirLog</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>410</code>
+			<label>[log] write %testDirLog with WA folder created message</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%testDirLog</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME (%TIMEMS) TestSDroot: [GRE] directorio %testWAfolder/%WADir creado en tarjeta SD</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%WA_exists_on_SD</lhs>
+					<op>0</op>
+					<rhs>dir</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DebugMode</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WA_exists_on_SD</lhs>
+					<op>0</op>
+					<rhs>dir</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>410</code>
+			<label>try to write %testWAfolder/%WADir/%okFile</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%testWAfolder/%WADir/%okFile</Str>
+			<Str sr="arg1" ve="3">ok</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>549</code>
+			<label>clear %Ok_exists</label>
+			<Str sr="arg0" ve="3">%Ok_exists</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>342</code>
+			<label>test %testWAfolder/%WADir/%okFile and store it in %Ok_exists</label>
+			<se>false</se>
+			<Int sr="arg0" val="4"/>
+			<Str sr="arg1" ve="3">%testWAfolder/%WADir/%okFile</Str>
+			<Str sr="arg2" ve="3">%Ok_exists</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>410</code>
+			<label>[log] write ok file check result "%Ok_exists"</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%testDirLog</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME (%TIMEMS) TestSDroot: [MSG] %testWAfolder/%WADir/%okFile es "%Ok_exists"</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DebugMode</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Ok_exists</lhs>
+					<op>0</op>
+					<rhs>file</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>547</code>
+			<label>if ok file is found, set %path2SD=%testWAfolder</label>
+			<Str sr="arg0" ve="3">%path2SD</Str>
+			<Str sr="arg1" ve="3">%testWAfolder</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>406</code>
+			<label>delete %testWAfolder/%WADir/%okFile</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%testWAfolder/%WADir/%okFile</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<label>set %okFile name</label>
+			<Str sr="arg0" ve="3">%okFile</Str>
+			<Str sr="arg1" ve="3">Test.ok</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%okFile</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>410</code>
+			<label>[log] append found folder to %testDirLog</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%testDirLog</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME (%TIMEMS) TestSDroot: [GRE] Se encuentra directorio %testWAfolder/%WADir en tarjeta SD con derecho de escritura</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DebugMode</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>410</code>
+			<label>[log] no write permission on %testWAfolder/%WADir</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%testDirLog</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME (%TIMEMS) TestSDroot: [RED] Se encuentra directorio %testWAfolder/%WADir en tarjeta SD, pero sin derecho de escritura</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DebugMode</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>410</code>
+			<label>[log] write %testDirLog with WA folder found message</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%testDirLog</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME (%TIMEMS) TestSDroot: [RED] directorio %testWAfolder/%WADir no encontrado en tarjeta SD y no se pudo crear.</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DebugMode</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act39" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>354</code>
+			<label>set %testWAfolder (folders to test) to: %par1,%par1/Android/data/com.whatsapp,%par1/Android/data/com.hotmail.alfredocapobianchi.wamedia2sd,%par1/Android/data/net.dinglisch.android.taskerm</label>
+			<Str sr="arg0" ve="3">%testWAfolder</Str>
+			<Str sr="arg1" ve="3">%par1,%par1/Android/data/com.whatsapp,%par1/Android/data/com.hotmail.alfredocapobianchi.wamedia2sd,%par1/Android/data/net.dinglisch.android.taskerm</Str>
+			<Str sr="arg2" ve="3">,</Str>
+		</Action>
+		<Action sr="act40" ve="7">
+			<code>410</code>
+			<label>[log] LOST.DIR not found</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%testDirLog</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME (%TIMEMS) TestSDroot: [RED] directorio "LOST.DIR" no encontrado en %par1</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DebugMode</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act42" ve="7">
+			<code>126</code>
+			<label>Return %path2SD (=0 if not good)</label>
+			<Str sr="arg0" ve="3">%path2SD</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>410</code>
+			<label>[log] write trying %par1</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%testDirLog</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME (%TIMEMS) TestSDroot: [MSG] probando directorio %par1 candidato a raíz de SD</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DebugMode</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>342</code>
+			<label>check %par1/LOST.DIR set %LostExists</label>
+			<se>false</se>
+			<Int sr="arg0" val="4"/>
+			<Str sr="arg1" ve="3">%par1/LOST.DIR</Str>
+			<Str sr="arg2" ve="3">%LostExists</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LostExists</lhs>
+					<op>0</op>
+					<rhs>dir</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>410</code>
+			<label>[log] LOST.DIR found</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%testDirLog</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME (%TIMEMS) TestSDroot: [GRE] directorio "LOST.DIR" encontrado en %par1</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DebugMode</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>39</code>
+			<label>Scan %testWAfolder folders</label>
+			<Str sr="arg0" ve="3">%testWAfolder</Str>
+			<Str sr="arg1" ve="3">%testWAfolder()</Str>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_content_edit</nme>
+		</Img>
+	</Task>
+	<Task sr="task6">
+		<cdate>1499731652484</cdate>
+		<edate>1499731652484</edate>
+		<id>6</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Espera...</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<label>if %TaskEnded==0, user has pressed the abort button. Go back to GUI</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%TaskEnded</lhs>
+					<op>0</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="1"/>
+			<Str sr="arg1" ve="3">Move2SD</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">WAMedia2SDHome</Str>
+			<Int sr="arg1" val="9"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+			<label>Task has ended normally</label>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Advanced</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AdvancedOpen</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">WAMedia2SDHome</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task7">
+		<cdate>1500158344079</cdate>
+		<edate>1500187591917</edate>
+		<id>7</id>
+		<nme>UpdateMsg</nme>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>Update %OnSreenLog</label>
+			<Str sr="arg0" ve="3">%OnSreenLog</Str>
+			<Str sr="arg1" ve="3">%par1
+
+</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>51</code>
+			<label>Update MsgBox</label>
+			<Str sr="arg0" ve="3">Espera...</Str>
+			<Str sr="arg1" ve="3">MsgBox</Str>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3">%OnSreenLog</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>30</code>
+			<label>wait n seconds</label>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1">
+				<var>%par2</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_ab_aaa_ext_sort_2</nme>
+		</Img>
+	</Task>
+	<Task sr="task8">
+		<cdate>1500227079182</cdate>
+		<edate>1500526223844</edate>
+		<id>8</id>
+		<nme>SimplePath2SD</nme>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>%path2SD=0</label>
+			<Str sr="arg0" ve="3">%path2SD</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>[log] set %testDirLog for sdroot testing</label>
+			<Str sr="arg0" ve="3">%testDirLog</Str>
+			<Str sr="arg1" ve="3">/storage/sdcard0/testDir_%DATE_%TIME.log</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%testDirLog</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>410</code>
+			<label>[log] write dir NOT found</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%testDirLog</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME (%TIMEMS): SimplePath2SD NO se encuentra el directorio %PossibleDestFolder</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%path2SD/</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>354</code>
+			<label>set %PossibleDestFolder (folders to test)</label>
+			<Str sr="arg0" ve="3">%PossibleDestFolder</Str>
+			<Str sr="arg1" ve="3">WAMedia2SD,Android/data/com.hotmail.alfredocapobianchi.WAMedia2SD</Str>
+			<Str sr="arg2" ve="3">,</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%PossibleDestFolder</Str>
+			<Str sr="arg1" ve="3">%PossibleDestFolder()</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>409</code>
+			<label>try to create dir</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%PossibleDestFolder</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>342</code>
+			<label>check %PossibleDestFolder type and store it to %DestFolder_exists_on_SD</label>
+			<se>false</se>
+			<Int sr="arg0" val="4"/>
+			<Str sr="arg1" ve="3">%PossibleDestFolder</Str>
+			<Str sr="arg2" ve="3">%DestFolder_exists_on_SD</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DestFolder_exists_on_SD</lhs>
+					<op>0</op>
+					<rhs>dir</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>410</code>
+			<label>[log] write dir found</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%testDirLog</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME (%TIMEMS): SimplePath2SD Se encuentra el directorio %PossibleDestFolder</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<label>%path2SD=%PossibleDestFolder</label>
+			<Str sr="arg0" ve="3">%path2SD</Str>
+			<Str sr="arg1" ve="3">%PossibleDestFolder</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>126</code>
+			<label>Return %path2SD/</label>
+			<Str sr="arg0" ve="3">%path2SD/</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_ab_action_search</nme>
+		</Img>
+	</Task>
+	<Task sr="task9">
+		<cdate>1499731115734</cdate>
+		<edate>1499731115734</edate>
+		<id>9</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>Set %minAge=%new_val</label>
+			<Str sr="arg0" ve="3">%minAge</Str>
+			<Str sr="arg1" ve="3">3600*24*%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<label>[alert] Age selected</label>
+			<Str sr="arg0" ve="3">Los archivos de hace más de %new_val días se moverán a la tarjeta SD. Los otros se mantendrán en la memoria interna.</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>
